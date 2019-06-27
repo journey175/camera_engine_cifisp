@@ -25,3 +25,8 @@ sensor驱动需要和rk-isp10驱动相匹配。
 3) 编译xxx-g++ -o rkisp_demo rkisp_demo.cpp -ldl
 4) 使用例子
 rkisp_demo -d /dev/video0 -w 960 -h 540 --count 16 -f NV21 -o /tmp/rk3288_960_540_16.nv21
+
+
+2019-6-27
+preview mipi camera and compile tnsorflow 
+
